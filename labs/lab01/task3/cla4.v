@@ -57,8 +57,8 @@ module cla4(
   or  #(2) (c3, g2, t30, t31, t32);
 
   and #(2) (t40, p3, g2);
-  and #(2) (t41, p3, p2, p1);
-  and #(2) (t42, p3, p2, p1, p0);
+  and #(2) (t41, p3, p2, g1);
+  and #(2) (t42, p3, p2, p1, g0);
   and #(2) (t43, p3, p2, p1, p0, cin);
   or  #(2) (cout, g3, t40, t41, t42, t43);
 
